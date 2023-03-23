@@ -1,0 +1,111 @@
+#root {
+  place-items: center;
+  width: 540px;
+  min-height: 240px;
+  max-height: 1020px;
+  margin: 30px auto;
+  padding: 30px 10px;
+  text-align: center;
+  background-color: #7c5561;
+  border: 5px solid #252222;
+  box-shadow: 5px 5px 5px #252222;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.form-task-container{
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0 0;
+  background-color: #c57180;
+  border: 1px solid transparent;
+}
+.form-task{
+  width: 320px;
+  margin: 20px auto 15px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.form-input{
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 75px;
+  max-height: 150px;
+  padding: 5px 7px;
+  margin-bottom: 7px;
+  border: 3px solid  #9d4253;
+  border-radius: 10px;
+  color: #252222;
+  font-weight: 200;
+}
+.select-priority{
+  background-color: white;
+  border: 1px solid  #9d4253;
+  border-radius: 10px;
+  width: 100px;
+}
+.form-btn{
+  border: 1px solid  #9d4253;
+  background-color: white;
+  border-radius: 10px;
+  width: 100px;
+  font-weight: 200;
+}
+
+.list-tasks-container{
+  background-color: #c57180;
+  padding: 10px 8px;
+  border-radius: 15px;
+  min-height: 50px;
+  color: rgba(255, 255, 255, 0.87);
+}
+.list-tasks{
+  max-height: 550px;
+  height: 100%;
+  overflow-y: auto;
+}
+.task{
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 5px 5px 5px 7px;
+  margin-bottom: 7px;
+  background-color: #9d4253;
+  border-radius: 5px;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.task:last-child{
+  margin-bottom: 0;
+}
+.task-text{
+  width: 375px;
+  text-align: left;
+  margin-right: 15px;
+  padding: 5px 5px 5px 9px;
+  line-height: 17px;
+  font-weight: 200;
+}
+.task-priority{
+  width: 40px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.task-delete-button{
+  width: 25px;
+  height: 25px;
+  color: black;
+  border-radius: 5px;
+  background: white url("./assets/img/close-icon.svg") center no-repeat;
+}
